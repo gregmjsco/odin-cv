@@ -1,3 +1,5 @@
+import "./General-Info.css"
+
 function Name(){
     return (
         <>
