@@ -9,6 +9,17 @@ function School() {
     )
 }
 
+function Title() {
+    return (
+        <>
+            <label htmlFor="Title">
+                Title of study:
+            </label>
+            <input type="text" name="title" id="title" placeholder="Bsc Computer Science" />
+        </>
+    )
+}
+
 
 export default function Education() {
     return (
