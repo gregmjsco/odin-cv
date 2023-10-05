@@ -6,7 +6,7 @@ function Name(){
             <label htmlFor="name">
                 Name:
             </label>
-            <input type="text" id="name" name="name" />
+            <input type="text" id="name" name="name" placeholder="John Smith..."/>
         </>
     );
 
@@ -18,7 +18,7 @@ function Email(){
             <label htmlFor="email">
                 Email:
             </label>
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" placeholder="yourEmail@example.com"/>
         </>
     );
 
@@ -30,7 +30,7 @@ function Phone(){
             <label htmlFor="phone">
                 Phone:
             </label>
-            <input type="tel" name="phone" id="phone" />
+            <input type="tel" name="phone" id="phone" placeholder="01-2345-6789"/>
         </>
     );
 
