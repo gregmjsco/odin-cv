@@ -20,6 +20,17 @@ function Title() {
     )
 }
 
+function Date() {
+    return (
+        <>
+            <label htmlFor="date">
+                Date of Study:
+            </label>
+            <input type="date" name="date" id="date"/>
+        </>
+    )
+}
+
 
 export default function Education() {
     return (
