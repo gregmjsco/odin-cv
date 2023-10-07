@@ -1,6 +1,6 @@
 import "./General-Info.css"
 
-function Name(){
+function Name(props){
     return (
         <>
             <label htmlFor="name">
@@ -12,7 +12,7 @@ function Name(){
 
 }
 
-function Email(){
+function Email(props){
     return (
         <>
             <label htmlFor="email">
@@ -24,7 +24,7 @@ function Email(){
 
 }
 
-function Phone(){
+function Phone(props){
     return (
         <>
             <label htmlFor="phone">

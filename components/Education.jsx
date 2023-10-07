@@ -1,4 +1,4 @@
-function School() {
+function School(props) {
     return (
         <>
             <label htmlFor="school">
@@ -9,7 +9,7 @@ function School() {
     )
 }
 
-function Title() {
+function Title(props) {
     return (
         <>
             <label htmlFor="Title">
@@ -20,7 +20,7 @@ function Title() {
     )
 }
 
-function Date() {
+function Date(props) {
     return (
         <>
             <label htmlFor="date">
