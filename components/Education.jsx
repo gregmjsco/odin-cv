@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 function School(props) {
     return (
         <>

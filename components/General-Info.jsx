@@ -1,6 +1,8 @@
 import "./General-Info.css"
+import { useState } from 'react';
 
 function Name(props){
+    const [nameText, updateNameText] = useState("");
     return (
         <>
             <label htmlFor="name">
