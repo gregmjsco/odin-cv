@@ -23,6 +23,7 @@ export default function GeneralInfo() {
                 Phone:
             </label>
             <input type="tel" name="phone" id="phone" placeholder="01-2345-6789"/>
+            <button type="submit"></button>
         </form>
     );
 }
