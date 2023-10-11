@@ -4,6 +4,7 @@ import GeneralInfo from '../components/General-Info'
 import Education from '../components/Education'
 import Header from '../components/Header'
 import Preview from '../components/Preview'
+import Experience from '../components/Experience'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <GeneralInfo />
         <Education />
+        <Experience />
       </div>
 
       <div className="right">
