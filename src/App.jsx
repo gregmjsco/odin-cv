@@ -7,16 +7,25 @@ import Preview from '../components/Preview'
 import Experience from '../components/Experience'
 
 function App() {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Handle form submission logic here
+    // You can gather form data and perform actions based on the data
+  };
 
   return (
     <>
     <div className='container'>
-      <div className="left">
-        <Header />
-        <GeneralInfo />
-        <Education />
-        <Experience />
-      </div>
+      <form action="" onSubmit={handleSubmit}>
+
+        <div className="left">
+          <Header />
+          <GeneralInfo />
+          <Education />
+          <Experience />
+        </div>
+
+      </form>
 
       <div className="right">
         <Preview />
