@@ -10,7 +10,7 @@ export default function GeneralInfo() {
 
     
     return (
-        <form>
+        <>
             <label htmlFor="name">
                 Name:
             </label>
@@ -26,6 +26,7 @@ export default function GeneralInfo() {
             </label>
             <input type="tel" value={phoneText} name="phone" id="phone" placeholder="01-2345-6789" required onChange={(e) => setPhoneText(e.target.value)} />
             <button type="submit"></button>
-        </form>
+        </>
+
     );
 }
