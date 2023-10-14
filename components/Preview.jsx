@@ -6,6 +6,7 @@ export default function Preview({formData}) {
 
             <p>First Name: {formData.userName}</p>
             <p>Email: {formData.email}</p>
+            <p>Phone Number: {formData.phone}</p>
             <p></p>
             
             </div>
